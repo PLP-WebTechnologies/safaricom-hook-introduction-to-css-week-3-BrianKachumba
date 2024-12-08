@@ -1,0 +1,91 @@
+/* Part 1: CSS Basics - Selectors, Properties, and Values */
+
+/* Element Selector */
+h1, h2, h3 {
+    font-size: 24px;
+}
+
+/* Class Selector */
+.section {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+/* ID Selector */
+#unique-section {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+/* Part 2: Inline, Internal, and External CSS */
+
+/* Internal CSS */
+.styled-section {
+    background-color: lightcoral;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+/* External CSS */
+
+/* Global Body Styling */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Text Colors */
+h1 {
+    color: #2c3e50;
+}
+
+p {
+    color: #7f8c8d;
+}
+
+/* Links and Hover Effects */
+a:hover {
+    color: blue;
+}
+
+/* Part 3: Basic Styling Properties */
+
+/* Card Component Styling */
+.card {
+    background-color: lightyellow;
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+.card-description {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    color: #666;
+}
+
+/* Spacing */
+p {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+/* Additional Body Styling */
+body {
+    background-color: #fafafa;
+    font-family: 'Helvetica', sans-serif;
+}
+
